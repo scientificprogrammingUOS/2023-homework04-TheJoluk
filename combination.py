@@ -2,9 +2,11 @@ import numpy as np
 
 # implement your function to combine two numpy arrays 
 
-def combine():
-    # delete the NotImplementedError when you write your function.
-    raise NotImplementedError
+def combination(a, b, axis = 0):
+    a = a.squeeze()
+    b = b.squeeze()
+    combination = np.concatenate((a, b), axis)
+    return combination
 
 
 if __name__ == "__main__":

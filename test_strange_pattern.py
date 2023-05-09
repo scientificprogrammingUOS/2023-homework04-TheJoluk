@@ -48,5 +48,4 @@ def test_strange_pattern():
 
     result = testfile.strange_pattern((0, 0))
 
-    assert result.shape == (
-        0, 0), "Your function does not produce the correct pattern in an edge case!"
+    assert result.shape == (0, 0), "Your function does not produce the correct pattern in an edge case!"
